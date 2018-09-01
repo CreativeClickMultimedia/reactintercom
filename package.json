@@ -1,0 +1,24 @@
+{
+  "name": "reactintercom",
+  "version": "1.0.0",
+  "description": "react intercom library to help load widget on your website",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreativeClickMultimedia/reactintercom.git"
+  },
+  "keywords": [
+    "intercom",
+    "reactjs",
+    "widget"
+  ],
+  "author": "Creative Click Multimedia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CreativeClickMultimedia/reactintercom/issues"
+  },
+  "homepage": "https://github.com/CreativeClickMultimedia/reactintercom#readme"
+}
