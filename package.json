@@ -2,10 +2,7 @@
   "name": "reactintercom",
   "version": "1.0.0",
   "description": "react intercom library to help load widget on your website",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
-  },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CreativeClickMultimedia/reactintercom.git"
@@ -20,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/CreativeClickMultimedia/reactintercom/issues"
   },
-  "homepage": "https://github.com/CreativeClickMultimedia/reactintercom#readme"
+  "homepage": "https://github.com/CreativeClickMultimedia/reactintercom#readme",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
