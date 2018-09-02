@@ -1,15 +1,8 @@
 # react intercom
 
-## Installation
-
-With [npm](https://www.npmjs.com/):
-```bash
-npm install 
-```
-
 ## Usage
 
-### With npm
+### With reactjs
 
 Initializing IC and using widget in component:
 
