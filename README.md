@@ -2,11 +2,20 @@
 
 ## Usage
 
+## Installation
+
+With [npm](https://www.npmjs.com/):
+```bash
+npm install reactintercomlib --save
+```
+
 ### With reactjs
 
 Initializing IC and using widget in component:
 
 ```js
+import ReactIc from 'reactintercomlib'
+
 class App extends Component {
   componentDidMount() {
     ReactIc.initialize({
