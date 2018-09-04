@@ -39,3 +39,4 @@ class App extends Component {
 
 export default App;
 ```
+[![DEMO](https://github.com/CreativeClickMultimedia/reactintercom/blob/master/intercomwidgetscreenshot.png)](https://github.com/CreativeClickMultimedia/reactintercom/blob/master/intercomwidgetscreenshot.png)
