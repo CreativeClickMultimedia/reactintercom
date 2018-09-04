@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ReactIc from './intercom'
+import ReactIc from 'reactintercomlib'
 
 class App extends Component {
   componentDidMount() {
