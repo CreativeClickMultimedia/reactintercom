@@ -18,8 +18,14 @@ import ReactIc from 'reactintercomlib'
 
 class App extends Component {
   componentDidMount() {
+    const otherOptions = {
+      first_name: 'John',
+      last_name: 'Doe'
+    }
     ReactIc.initialize({
-      app_id: 'd3vzmxvx'
+      app_id: 'd3vzmxvx',
+      hide_default_launcher: false,
+      ...otherOptions
     })
   }
   render() {
