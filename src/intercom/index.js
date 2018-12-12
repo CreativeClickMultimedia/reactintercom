@@ -1,4 +1,4 @@
-zimport loadIC from './loadIC';
+import loadIC from './loadIC';
 
 const initialize = (options) => {
   if (typeof window === 'undefined') return false;
